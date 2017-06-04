@@ -33,25 +33,14 @@ export class App extends Component {
     return store;
   }
 
-  getData(event) {
-    let xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function () {
-      console.log(this.responseText);
-    }
-    xhttp.open("GET", "README.txt", true);
-    xhttp.send();
-  }
-
   render() {
-    const icon = "muidocs-icon-navigation-expand-more";
     return(
       <Provider store={this.configureStore()}>
         <MuiThemeProvider>
           <Paper style={{ height: "95vh" }}>
             <AppBar
               title="Todo PWA"
-              iconClassNameRight={icon}
-              onLeftIconButtonTouchTap={this.getData}
+              showMenuIconButton={false}
               zDepth={1}
             />
             <TodoList />
