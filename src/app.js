@@ -5,6 +5,7 @@ import thunk from "redux-thunk";
 import reducer from "./reducer";
 import db from "./db";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+import Paper from "material-ui/Paper";
 import AppBar from "material-ui/AppBar";
 import { TodoList } from "./components";
 
@@ -46,7 +47,7 @@ export class App extends Component {
     return(
       <Provider store={this.configureStore()}>
         <MuiThemeProvider>
-          <div>
+          <Paper style={{ height: "95vh" }}>
             <AppBar
               title="Todo PWA"
               iconClassNameRight={icon}
@@ -54,7 +55,7 @@ export class App extends Component {
               zDepth={1}
             />
             <TodoList />
-          </div>
+          </Paper>
         </MuiThemeProvider>
       </Provider>
     );
