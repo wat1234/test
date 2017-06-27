@@ -1,9 +1,9 @@
 {
-  "short_name": "TodoPWA",
-  "name": "TodoPWA",
+  "short_name": "NAME",
+  "name": "NAME",
   "icons": [
     {
-      "src":"",
+      "src":"ICON",
       "sizes": "",
       "type": ""
     }
