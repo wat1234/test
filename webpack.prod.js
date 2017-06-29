@@ -27,12 +27,18 @@ module.exports = {
       "process.env": { NODE_ENV: JSON.stringify("production") }
     }),
     new webpack.optimize.UglifyJsPlugin(),
+    /*
     new CopyWebpackPlugin([
       { from: "manifest.json" }
     ]),
+    */
     new HtmlWebpackPlugin({
       title: "Todo PWA",
       template: "src/index.ejs"
+    }),
+    new HtmlWebpackPlugin({
+      filename: "manifest.json",
+      template: "manifest.json"
     }),
     new OfflinePlugin()
   ]

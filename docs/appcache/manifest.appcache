@@ -1,11 +1,11 @@
 CACHE MANIFEST
-#ver:6/28/2017, 8:27:39 PM
+#ver:6/28/2017, 8:41:55 PM
 #plugin:4.7.0
 
 CACHE:
 /todo-pwa/bundle.js
-/todo-pwa/manifest.json
 /todo-pwa/
+/todo-pwa/manifest.json
 
 NETWORK:
 *

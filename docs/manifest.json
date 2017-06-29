@@ -4,12 +4,13 @@
   "icons": [
     {
       "src":"https://process.filestackapi.com/resize=width:144/CxfFZvFqQu65W2mQACmj",
-      "sizes": "",
-      "type": ""
+      "sizes": "144x144",
+      "type": "image/png"
     }
   ],
-  "start_url": "/?utm_source=homescreen",
+  "start_url": "/todo-pwa//?utm_source=homescreen",
   "background_color": "#000",
   "theme_color": "#536878",
   "display": "standalone"
 }
+<script type="text/javascript" src="/todo-pwa/bundle.js"></script>
