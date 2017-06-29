@@ -8,9 +8,8 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/todo-pwa//?utm_source=homescreen",
+  "start_url": "/todo-pwa/?utm_source=homescreen",
   "background_color": "#000",
   "theme_color": "#536878",
   "display": "standalone"
 }
-<script type="text/javascript" src="/todo-pwa/bundle.js"></script>
