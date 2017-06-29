@@ -22,7 +22,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "NAME",
+      title: "Todo PWA",
       template: "src/index.ejs"
     }),
     new OfflinePlugin()

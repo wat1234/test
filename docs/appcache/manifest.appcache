@@ -3,9 +3,9 @@ CACHE MANIFEST
 #plugin:4.7.0
 
 CACHE:
-/NAME/bundle.js
-/NAME/manifest.json
-/NAME/
+/todo-pwa/bundle.js
+/todo-pwa/manifest.json
+/todo-pwa/
 
 NETWORK:
 *
