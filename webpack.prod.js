@@ -38,7 +38,8 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: "manifest.json",
-      template: "manifest.json"
+      template: "manifest.json",
+      chunks: []
     }),
     new OfflinePlugin()
   ]
